@@ -1,0 +1,569 @@
+body
+
+{
+
+	background-color : #000000;
+
+}
+
+table, tr, td
+
+{
+
+	color: #000000;
+
+	font-size : 12px;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	padding : 0px 0px;
+
+}
+
+a
+
+{
+
+	color: #000000;
+
+	font-size : 12px;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	text-decoration : underline;
+
+}
+
+a:hover
+
+{
+
+	color: #000000;
+
+	font-size : 12px;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	text-decoration : none;
+
+}
+
+a.link
+
+{
+
+	color: #0066FF;
+
+	font-size : 12px;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-weight : bold;
+
+	text-decoration : none;
+
+}
+
+a.link:hover
+
+{
+
+	color: #0066FF;
+
+	font-size : 12px;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-weight : bold;
+
+	text-decoration : underline;
+
+}
+
+.copyrights
+
+{
+
+	color : #ffffff;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 11px;
+
+	letter-spacing : 1px;
+
+}
+
+a.copyrights
+
+{
+
+	color : #ffffff;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 11px;
+
+	letter-spacing : 1px;
+
+}
+
+a.copyrights:hover
+
+{
+
+	color : #ffffff;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 11px;
+
+	text-decoration : none;
+
+	letter-spacing : 1px;
+
+}
+
+td.left
+
+{
+
+	background-color: #990000;
+
+	color : #FFFFCC;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 12px;
+
+}
+
+td.right
+
+{
+
+	background-color: #D6CEB9;
+
+	color : #000000;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: xx-small;
+
+}
+
+td.center
+
+{
+
+	background-color: #EFEDE5;
+
+	color : #000000;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: xx-small;
+
+}
+
+.hright
+
+{
+
+	height : 18px;
+
+	background-color: #B86F4E;
+
+	color : #FFFFCC;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 12px;
+
+	font-weight : bold;
+
+	text-align : center;
+
+}
+
+.menu
+
+{
+
+	background-color : #cc0000;
+
+	color : #FFFFCC;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 11px;
+
+	font-weight : bold;
+
+	letter-spacing : 1px;
+
+}
+
+a.menu
+
+{
+
+	color : #FFFFCC;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 11px;
+
+	font-weight : bold;
+
+	letter-spacing : 1px;
+
+	text-decoration : none;
+
+}
+
+a.menu:hover
+
+{
+
+	color : #FFFFCC;
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size:11px;
+
+	font-weight : bold;
+
+	letter-spacing : 1px;
+
+	text-decoration: underline;
+
+}
+
+.menu_left
+
+{
+	letter-spacing : 1px;
+
+	padding : 1px  3px;
+
+}
+
+a.menu_left
+
+{
+
+	background: transparent url('images/design/li_menu_closed.gif') 6px center no-repeat;
+    display: block;
+    padding-left: 16px;
+    color: #bc995b;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    
+    outline: none;
+
+}
+
+a.menu_left:hover
+
+{
+
+	 background: url('images/design/li_menu_active.gif') 6px center no-repeat;
+    color: #FFFFFF;
+}
+ .subMenu {
+    margin: 5px 0px 5px 16px;
+    position: relative;
+}
+.subMenu .border {
+    border: 1px solid #e8e0cf;
+    border-right: 0;
+    background-color: #f7f3ea;	
+    padding: 10px 0px;
+}
+
+.subMenu a {
+    background: url('images/design/li_submenu.gif') 6px center no-repeat;
+    display: block;
+    padding-left: 16px;
+    color: #bc995b;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.subMenu a:hover {
+    background: #c2a677 url('images/design/li_menu_active.gif') 6px center no-repeat;
+    color: #FFFFFF;
+}
+
+select
+
+{
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size:12px;
+
+}
+
+input.text
+
+{
+
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size:12px;
+
+}
+
+.imgborder
+
+{
+
+	border-color: #000000;
+
+	border-width : 1px;
+
+	border-style : solid;
+
+}
+
+
+
+SPAN.productSpecialPrice {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+  color: #ff0000;
+}
+
+.boxText {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 10px;
+
+}
+
+.boxTextLeft {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 10px;
+
+    color: #FFFFCC;
+
+}
+
+
+.infoBox {
+}
+
+.infoBoxContents {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+  font-size: 10px;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+	font-family : Trebuchet MS,Tahoma,Arial;
+  font-size: 10px;
+}
+
+.informBoxNotice {
+  background: #B86F4E;
+}
+
+.informBoxNoticeContents {
+  background: #FFFFCA;
+    font-family : Trebuchet MS,Tahoma,Arial;
+  font-size: 10px;
+}
+
+TD.infoBoxHeading {
+	font-family : Trebuchet MS,Tahoma,Arial;
+  font-size: 10px;
+  font-weight: bold;
+  background: #bbc3d3;
+  color: #ffffff;
+}
+
+TD.infoBox, SPAN.infoBox {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+  font-size: 10px;
+}
+
+.pageHeading, TD.pageHeading, DIV.pageHeading {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  padding: 2px 4px;
+}
+
+TABLE.productListing {
+  border: 1px;
+  border-style: none;
+  border-color: #b6b7cb;
+}
+
+.productListing-heading {
+	font-family : Trebuchet MS,Tahoma,Arial; color:#BC995B;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.productListing-data {
+	font-family : Trebuchet MS,Tahoma,Arial;
+	color:#BC995B;
+  font-size: 10px;
+}
+
+.inputRequirement {
+	font-family : Trebuchet MS,Tahoma,Arial;
+
+	font-size: 10px;
+	color: #ff0000; 
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #FFF;
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+	font-family : Trebuchet MS,Tahoma,Arial;
+   color:#BC995B;
+  font-size: 12px;
+	padding : 2px 4px;
+
+}
+
+A.pageResults {
+}
+
+A.pageResults:hover {
+}
+.stockWarning{
+color:#BC995B;
+}
+TD.main, P.main {
+  font-family: Trebuchet MS,Tahoma,Arial;
+  font-size: 11px;
+  line-height: 1.5;
+  padding : 1px 4px;
+  color:#BC995B;
+
+}
+
+h1, h1 a {
+	color: #000000;
+	font-size : 16px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	margin:0px;
+	text-decoration:none;
+}
+
+h1 a:hover {
+	color: #000000;
+	font-size : 16px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	text-decoration:underline;
+	margin:0px;
+
+}
+
+h2 {
+	color: #000000;
+	font-size : 14px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+}
+
+.h2 {
+	color: #000000;
+	font-size : 14px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+}
+
+
+.h2-links {
+	color: #000000;
+	font-size : 14px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	text-decoration:none;
+
+}
+
+.h2-links:hover {
+	color: #000000;
+	font-size : 14px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	text-decoration:underline;
+}
+
+
+h3 {
+	color: #000000;
+	font-size : 12px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+}
+
+.h3 {
+	color: #000000;
+	font-size : 12px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+}
+
+.h3-links {
+	color: #000000;
+	font-size : 12px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	text-decoration:none;
+}
+
+.h3-links:hover {
+	color: #000000;
+	font-size : 12px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	text-decoration:underline;
+}
+
+h4 {
+	color: #000000;
+	font-size : 12px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px 0px 0px;
+	font-weight:bold;
+	margin:0px;
+}
+
+.error
+{
+	color: #F7472F;
+	font-size : 14px;
+	font-family : Trebuchet MS,Tahoma,Arial;
+	padding : 0px 0px;
+	text-decoration:none;
+}
+
+.category_desc{ color:#BC995B;
+}

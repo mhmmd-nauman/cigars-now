@@ -1,0 +1,70 @@
+#container #header , 
+#container #header .box , 
+#container #header .box .find,
+#container #content .box.center .right_panel .top_buttons a,
+#container #footer div,
+#container #content .box.center .main_area .contact-phone,
+#container #content .box.center .main_area a.info,
+#container #content .box.center .main_area a.buy,
+#container #content .box.center .main_area .button
+{
+    behavior: url("css/iepngfix.htc");
+}
+
+#container #content .box .corner_lb {
+    bottom: -2px;	
+}
+
+#container #content .box .corner_rb {
+	bottom: -2px;
+}
+
+#container #content .box.center .corner_rt {
+    right: -1px;   
+}
+
+
+#container #content .box.center .corner_rb {
+    right: -1px;   
+}
+
+#container #content .box.left .menu .subMenu .corner_lb {
+    bottom: -8px;	
+}
+
+#container #content .box.center .right_panel {
+    margin-right: 6px;	
+}
+
+#container #content .box.center .right_panel .top_buttons a {
+    margin-left: 15px;
+}
+
+#container #content .box.center .right_panel .top_buttons {
+    height: 42px;
+    margin-bottom: 2px;
+}
+
+#container #content .box.center .right_panel .top_buttons .border {
+    padding: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: auto;    
+}
+
+#container #content .box.center .right_panel .top_buttons .corner_lb {
+    bottom: 0px;
+}
+
+#container #content .box.center .right_panel .top_buttons .corner_rb {
+	bottom: 0px;
+    right: 0px;
+}
+
+#container #content .box.center .main_area {
+    margin-top: 17px;
+}
+
+#container #content .box.center .right_panel .box2.cart {
+	margin-top: 0px;
+}

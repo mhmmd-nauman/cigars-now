@@ -1,0 +1,533 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,blockquote,fieldset,input,p,th,td,select,table{margin:0;padding:0;}
+blockquote{ border-left: 3px solid black; padding-left:10px}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img, object {border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+label {white-space: normal;}
+
+input[type="button"], input[type="submit"]{
+    cursor:pointer;
+    padding:0 .05em 0 .05em;
+    width:auto;
+    overflow:visible;
+}
+
+form {
+    display: inline;
+}
+
+html, body {
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.clear img {
+    width: 0px;
+    height: 0px;
+}
+
+* {
+    zoom: 1;
+}
+
+body {
+    background: #FFFFFF url(../images/design/bg_head.jpg) left top repeat-x;
+}
+
+.wrapper {
+    background: #FFFFFF url(../images/design/bg_footer.jpg) left bottom repeat-x;	
+}
+
+#container {
+    width: 1024px;
+    margin: auto;
+}
+
+#container #header { 
+    height: 178px;
+    background: transparent url(../images/design/logo.png) left top no-repeat;
+}
+
+#container #header .box {
+    background: transparent url(../images/design/box_header.png) left top no-repeat;
+    width: 251px;
+    height: 144px;
+    float: right;
+    margin-top: 11px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 13px;
+}
+
+#container #header .box .search {
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    background: transparent url('../images/design/box_header_separator.gif') left bottom repeat-x;	
+} 
+
+#container #header .box .search table td,
+#container #header .box .search table th 
+{
+    padding: 4px 2px;
+}
+
+#container #header .box .search table th{ 
+    color: #a38248;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+#container #header .box .search table td {
+    /*width: 158px;*/
+}
+
+#container #header .box .search table td select {
+    width: 158px;
+}
+
+#container #header .box .search table td input {
+    width: 130px;
+}
+
+#container #header .box .search table td a.find {
+    display: block;
+    width: 21px; 
+    height: 21px;
+    background: transparent url('../images/design/btn_search.png') left top no-repeat;
+    float: right;
+}
+
+#container #header .box .search table td a.find:hover {
+    background: transparent url('../images/design/btn_search_over.png') left top no-repeat;
+}
+
+#container #header .box .advanced a.find {
+    background: transparent url('../images/design/btn_advsearch.png') left top no-repeat;
+    float: right;
+    width: 86px;
+    height: 39px;
+}
+
+#container #header .box .advanced .text {
+    color: #a38248;
+    float: right;
+    text-align: right;
+    margin-right: 8px;
+}
+
+#container #content {
+    margin-top: 9px;	
+    margin-left: 3px;
+    margin-right: 5px;
+    clear: both;
+}
+
+#container #content .box {
+    position: relative;
+    background: #FFFFFF url('../images/design/box_content_t.gif') left top repeat-x;
+}
+
+#container #content .box .border_right {
+    background: transparent url('../images/design/box_content_r.gif') right top repeat-y;
+}
+
+#container #content .box .border_bottom {
+    background: transparent url('../images/design/box_content_b.gif') left bottom repeat-x;
+}
+
+#container #content .box .border_left {
+    background: transparent url('../images/design/box_content_l.gif') left top repeat-y;
+    padding: 7px;
+}
+
+#container #content .box .corner_lt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent url('../images/design/box_content_lt.gif') left top no-repeat;
+}
+
+#container #content .box .corner_rt {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent url('../images/design/box_content_rt.gif') left top no-repeat;
+}
+
+#container #content .box .corner_lb {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent url('../images/design/box_content_lb.gif') left top no-repeat;
+}
+
+#container #content .box .corner_rb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent url('../images/design/box_content_rb.gif') left top no-repeat;
+}
+
+
+#container #content .box.left {
+    width: 208px;
+    float: left;
+}
+
+#container #content .box.left .border_left {
+    padding: 20px 7px 16px 7px;
+}
+    
+
+#container #content .box.left .menu a {
+    background: transparent url('../images/design/li_menu_closed.gif') 6px center no-repeat;
+    display: block;
+    padding-left: 16px;
+    color: #bc995b;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    outline: none;
+}
+
+#container #content .box.left .menu a:hover {
+    background: #c2a677 url('../images/design/li_menu_active.gif') 6px center no-repeat;
+    color: #FFFFFF;
+}
+
+#container #content .box.left .menu a.active {
+    background: transparent url('../images/design/li_menu_opened.gif') 6px center no-repeat;
+    color: #8a4610;
+}
+
+
+#container #content .box.left .menu .subMenu {
+    margin: 5px 0px 5px 16px;
+    position: relative;
+}
+
+#container #content .box.left .menu .subMenu .corner_lt {
+    width: 10px;
+    height: 10px;
+    background: transparent url('../images/design/box_submenu_lt.gif') left top no-repeat;
+}
+
+#container #content .box.left .menu .subMenu .corner_lb {
+    width: 10px;
+    height: 10px;
+    background: transparent url('../images/design/box_submenu_lb.gif') left top no-repeat;
+}
+
+#container #content .box.left .menu .subMenu .border {
+    border: 1px solid #e8e0cf;
+    border-right: 0;
+    background-color: #f7f3ea;	
+    padding: 10px 0px;
+}
+
+#container #content .box.left .menu .subMenu a {
+    background: transparent url('../images/design/li_submenu.gif') 6px center no-repeat;
+    display: block;
+    padding-left: 16px;
+    color: #bc995b;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+#container #content .box.left .menu .subMenu a:hover {
+    background: #c2a677 url('../images/design/li_menu_active.gif') 6px center no-repeat;
+    color: #FFFFFF;
+}
+
+#container #content .box.center {
+    margin-left: 214px;
+}
+
+#container #content .box.center .right_panel {
+    float: right;
+    margin-right: 11px;
+    width: 190px;
+}
+
+#container #content .box.center .right_panel .top_buttons {
+    position: relative;
+    height: 32px;
+}
+
+#container #content .box.center .right_panel .top_buttons .border {
+    border: 1px solid #e8e0cf;
+    border-top: 0;
+    background-color: #f7f3ea;
+    height: 26px;
+    padding-top: 5px;  
+}
+
+#container #content .box.center .right_panel .top_buttons a {
+	display: block;
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin-left: 21px;
+}
+
+#container #content .box.center .right_panel .top_buttons a.home {
+	background: transparent url('../images/design/btn_home.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.home:hover {
+	background: transparent url('../images/design/btn_home_over.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.premier {
+    background: transparent url('../images/design/btn_premier.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.premier:hover {
+	background: transparent url('../images/design/btn_premier_over.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.cart {
+    background: transparent url('../images/design/btn_cart.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.cart:hover {
+    background: transparent url('../images/design/btn_cart_over.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.contact{
+    background: transparent url('../images/design/btn_contact.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons a.contact:hover{
+    background: transparent url('../images/design/btn_contact_over.png') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons .corner_rb {
+    width: 10px;
+    height: 10px;
+    background: transparent url('../images/design/box_fav_rb.gif') left top no-repeat;
+}
+
+#container #content .box.center .right_panel .top_buttons .corner_lb {
+    width: 10px;
+    height: 10px;
+    background: transparent url('../images/design/box_fav_lb.gif') left top no-repeat;
+}
+
+
+#container #content .box.center .right_panel .box2 {
+    background: transparent url('../images/design/box_right_head.gif') top left no-repeat;
+    width: 190px;	
+    margin-top: 10px;
+} 
+
+#container #content .box.center .right_panel .box2 h1 {
+    margin: 0px;
+    padding: 0px;
+    height: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 29px;
+}
+
+#container #content .box.center .right_panel .box2 .content{
+    background: transparent url('../images/design/box_right_content.gif') bottom left no-repeat;
+    padding: 8px;
+}
+
+#container #content .box.center .right_panel .box2.cart h1 {
+    background: transparent url('../images/design/box_right_icn_cart.gif') 6px center no-repeat;
+}
+
+#container #content .box.center .right_panel .box2.hot h1 {
+    background: transparent url('../images/design/box_right_icn_hot.gif') 6px center no-repeat;
+}
+
+#container #content .box.center .right_panel .box2.account h1 {
+    background: transparent url('../images/design/box_right_icn_account.gif') 6px center no-repeat;
+}
+
+#container #content .box.center .right_panel .box2.mailing h1 {
+    background: transparent url('../images/design/box_right_icn_mailing.gif') 6px center no-repeat;
+}
+
+#container #content .box.center .border_left {
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+
+#container #content .box.center .main_area {
+    margin-top: 10px;
+}
+
+#container #footer {
+    height: 119px;
+    margin-top: 6px;
+    padding: 13px 10px 0px 10px;
+    color: #8a4610;
+}
+
+#container #footer a {
+    color: #8a4610;
+    text-decoration: underline;
+}
+
+#container #footer .left {
+    background: transparent url('../images/design/box_footer_left.png') left top no-repeat;
+    float: left; 
+    width: 184px;
+    height: 59px;
+    text-align: center;
+    padding: 5px;
+}
+
+#container #footer .center {
+    background: transparent url('../images/design/box_footer_center.png') left top no-repeat;
+    float: left; 
+    width: 540px;
+    height: 59px;
+    text-align: center;
+    padding: 5px 20px;
+    margin-left: 18px;
+}
+
+#container #footer .right {
+    background: transparent url('../images/design/box_footer_right.png') left top no-repeat;
+    float: left; 
+    width: 180px;
+    height: 59px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 9px;
+}
+
+#container #footer .copyright {
+    clear: both;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#container #content a {
+    color: #8a4610;
+    text-decoration: none;
+}
+
+#container #content a:hover {
+    text-decoration: underline;
+}
+
+#container #content .box.center .main_area {
+    margin-right: 220px;
+    padding-right: 10px;
+    background: #ffffff url('../images/design/box_content_separator.gif') right top repeat-y;
+    color: #bc995b;
+    min-height: 590px;
+}
+
+#container #content .box.center .main_area h1,
+#container #content .box.center .main_area .pageHeading{
+    color: #8a4610;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#container #content .box.center .main_area h2 {
+    color: #BC995B;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#container #content .box.center .main_area p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#container #content .box.center .main_area .list td {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+#container #content .box.center .main_area .footer_content {
+    margin-top: 40px;	
+}
+#container #content .box.center .main_area .certificates {
+    float: right;
+}
+
+#container #content .box.center .main_area .contact-phone {
+    width: 280px;
+    padding-left: 60px; 
+    background: transparent url('../images/design/icn_phone.png') left bottom no-repeat;
+    padding-top: 20px;
+}
+
+#container #content .box.center .main_area a.info {
+    display: block;
+    background: transparent url('../images/design/icn_product_info.png') left top no-repeat;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-right: 5px;
+}
+
+#container #content .box.center .main_area a.buy {
+    display: block;
+    background: transparent url('../images/design/icn_product_buy.png') left top no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+#container #content .box.center .main_area a.buy.left {
+    float: left;
+    margin-right: 5px;
+}
+
+#container #content .box.center .main_area .productListing-heading {
+    font-weight: bold;
+}
+
+#container #content .box.center .main_area .productSpecialPrice {
+    color: #FF0000;
+}
+
+#container #content .box.center .main_area table .fieldKey {
+	padding: 3px;
+	text-align: right;   
+}
+
+#container #content .box.center .main_area table .fieldValue {
+    padding: 3px;
+}
+
+#container #content .box.center .main_area .infoBoxContents td {
+    padding: 3px;
+}
+
+#container #content .box.center .main_area .formArea td {
+    padding: 3px;
+} 
+
+
